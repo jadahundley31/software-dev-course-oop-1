@@ -34,6 +34,6 @@ public class Teacher {
     // Add a toString method that returns the teacher's name and className in the following format:
     // name (className)
     public String toString(){
-        return name + " " + className;
+        return name + " " + "(" + className + ")";
     }
 }
